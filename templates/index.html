@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+	<title>hohoho</title>
+</head>
+
+<body background="http://newevolutiondesigns.com/images/freebies/nature-hd-background-17.jpg">
+	<style>
+		.button {
+			border: none;
+			color: white;
+			padding: 30px 50px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 50px;
+			margin: 20px 400px;
+			cursor: pointer;
+		}
+
+		.button1 {
+			background-color: #FFFFFF;
+      border-radius: 100%;
+      height: 5em;
+      width: 5em;
+      opacity: 60%;
+      color:black;
+		}
+
+		/* Green */
+		.button2 {
+			background-color: #FFFFFF;
+      border-radius: 100%;
+      height: 5em;
+      width: 5em;
+      opacity: 60%;
+      color:black;
+		}
+
+		/* Blue */
+	</style>
+	<img src="/static/this.png" alt="Avatar" width="200" height="200">
+<button onclick="location.href = '/login';"class="button button1">Log In</button>
+<button onclick ="location.href = '/signup';"class="button button2">Sign Up</button>
+
+    
+    
+
+   
+    <script src="{{ url_for ('static', filename='js/script.js')}}"></script>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.py": [
+      {
+        "id": "68199d85-2267-4725-98a3-d5d198bf1f40",
+        "line": 9,
+        "version": 1202,
+        "index": 184
+      },
+      {
+        "id": "df2cc434-2c1b-40df-b11a-81f1047a4ea9",
+        "line": 81,
+        "version": 1202,
+        "index": 2109
+      }
+    ],
+    "static/css/style.css": [
+      {
+        "id": "91161585-72bf-4ef2-a733-f3a6390cdd24",
+        "line": 2,
+        "version": 858,
+        "index": 12
+      }
+    ]
+  }
+}

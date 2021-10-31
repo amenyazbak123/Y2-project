@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+	<title>hohoho</title>
+</head>
+
+<body background = "https://www.wallpaperup.com/uploads/wallpapers/2014/01/02/213116/fb6c9544f737d824c14200d25e3884b3.jpg">
+
+
+  <div class="log-form">
+  <h2 style="font-family:Brush Script MT">Login to your account</h2>
+
+  <form action="/login" method="POST">
+    <input type="text" name="username" placeholder="username" required />
+
+
+
+    <input type="password" name="password" placeholder="password" required/>
+
+    <input type="submit" class="btn" value="Login">
+    <p>create a new account >>>  <a class="btn " href="/signup">Sign Up</a></li></p>
+   
+    
+  </form>
+</div><!--end log form -->
+	<a href="/"><img src="/static/this.png" alt="HTML tutorial" width="200" height="200"></a>
+
+    
+
+   
+    <script src="{{ url_for ('static', filename='js/script.js')}}"></script>
+  </body>
+</html>
